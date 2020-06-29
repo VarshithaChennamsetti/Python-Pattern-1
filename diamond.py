@@ -11,7 +11,7 @@ ch=True
 while(ch==True): #Loop to check if correct input for the pattern is given
     Max_width=int(input("Enter the maximum width of the diamond: "))
     if(Max_width%2==0 or Max_width<2):
-        print("Number needs to be even and greater than 1, please enter again!")
+        print("Number needs to be odd and greater than 1, please enter again!")
     else:
         ch=False
         print("\n")
@@ -29,5 +29,5 @@ for row in range(0,Max_width): #Main loop for pattern
             break
         else:
             print(end=" ")
-    print("\n")
+    print()
     
